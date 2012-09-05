@@ -1,0 +1,51 @@
+body {
+	background-color: #10411a;
+	text-align: center;
+	font-family: Sans-Serif;
+	font-size: 1.0em;
+}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#container {
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: left;
+	background-color: #ffffff;
+}
+
+#store {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#video {
+	text-align: center;
+	height: 300px;
+}
+
+#powered {
+	padding-top: 10px;
+	font-size: 1.0em;
+	color: #ffffff;
+}
+
+#slider {
+	display: none;
+	background: url(images/loading.gif)
+	margin-top: 20px;
+}
+
+#slider.orbit {
+	display: block;
+}
+
+#slider.orbit img {
+	display: block;
+}
